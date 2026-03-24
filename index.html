@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlaceBridge — Turning Placement Chaos into Clarity</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/js/java.js" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body class="theme-dark">
+    <div class="placebridge">
+      <div class="background-orb orb-one"></div>
+      <div class="background-orb orb-two"></div>
+      <div class="background-grid"></div>
+
+      <!-- NAVBAR -->
+      <header class="navbar">
+        <div class="brand">
+          <div class="brand-mark"></div>
+          <div class="brand-text">
+            <span class="brand-name">PlaceBridge</span>
+            <span class="brand-tagline">Turning Placement Chaos into Clarity</span>
+          </div>
+        </div>
+
+        <nav class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#dashboard">Dashboard</a>
+          <a href="#operations">Operations</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="ghost-button" id="loginBtn">Login</button>
+          <button class="primary-button" id="signupBtn">Get Started</button>
+        </div>
+      </header>
+
+      <!-- HERO -->
+      <section class="hero">
+        <div>
+          <p class="eyebrow">PLACEMENT OPERATIONS, UNIFIED</p>
+          <h1 class="hero-title">
+            PlaceBridge turns placement chaos into
+            <span class="text-accent">clear outcomes</span>.
+          </h1>
+          <p class="hero-subtitle">
+            Smart, minimal, and slightly futuristic dashboards for students, faculty, and recruiters.
+          </p>
+          <div class="hero-actions">
+            <a href="#dashboard" class="primary-button">Explore Dashboard</a>
+            <button class="secondary-button">View Workflow</button>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-card">95% Automated eligibility</div>
+            <div class="stat-card">24/7 Alert coverage</div>
+            <div class="stat-card">180+ Placement insights</div>
+          </div>
+        </div>
+
+        <div class="panel-card">
+          <h3>Live Placement Snapshot</h3>
+          <div class="panel-row">Drives open <strong>12</strong></div>
+          <div class="panel-row">Students eligible <strong>1,248</strong></div>
+          <div class="panel-row">Interviews today <strong>42</strong></div>
+          <button class="secondary-button">Open Dashboard</button>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section id="features">
+        <div class="section-header">
+          <p class="eyebrow">Core Modules</p>
+          <h2 class="section-title">Advanced placement capabilities, organized</h2>
+          <p class="section-subtitle">
+            Each module is stacked with always-visible sub-features, keeping every workflow transparent and trackable.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <div class="feature-card">
+            <h3>Eligibility Engine</h3>
+            <p>Explainable eligibility checks with actionable insights.</p>
+            <ul class="feature-list">
+              <li><i class="fa-solid fa-circle-check status-good"></i> Eligibility score with circular progress</li>
+              <li><i class="fa-solid fa-circle-xmark status-bad"></i> Why not eligible? (CGPA, skills, backlog)</li>
+              <li><i class="fa-solid fa-sparkles status-info"></i> How to become eligible (CGPA + skills plan)</li>
+              <li><i class="fa-solid fa-toggle-on status-info"></i> Company-specific toggle</li>
+              <li><i class="fa-solid fa-chart-line status-good"></i> Eligibility breakdown</li>
+              <li><i class="fa-solid fa-triangle-exclamation status-warn"></i> Simulation mode</li>
+            </ul>
+          </div>
+
+          <div class="feature-card">
+            <h3>JobFit</h3>
+            <p>Transparent AI matching with resume insights and compare mode.</p>
+            <ul class="feature-list">
+              <li><i class="fa-solid fa-circle-check status-good"></i> Why this match?</li>
+              <li><i class="fa-solid fa-triangle-exclamation status-warn"></i> Skill gap visual</li>
+              <li><i class="fa-solid fa-sparkles status-info"></i> Improve match suggestions</li>
+              <li><i class="fa-solid fa-circle-xmark status-bad"></i> Missing resume keywords</li>
+              <li><i class="fa-solid fa-tag status-info"></i> Company fit tags</li>
+              <li><i class="fa-solid fa-code-compare status-good"></i> Compare jobs</li>
+            </ul>
+          </div>
+
+          <div class="feature-card">
+            <h3>AlertCenter</h3>
+            <p>Priority alerts + intelligent reminders.</p>
+            <ul class="feature-list">
+              <li><i class="fa-solid fa-bell status-good"></i> Priority alerts (High / Medium / Info)</li>
+              <li><i class="fa-solid fa-robot status-info"></i> AI alerts on eligibility changes</li>
+              <li><i class="fa-solid fa-clock status-warn"></i> Countdown timers</li>
+              <li><i class="fa-solid fa-sliders status-info"></i> Email/App/SMS control panel</li>
+              <li><i class="fa-solid fa-list-check status-good"></i> Alert history</li>
+              <li><i class="fa-solid fa-users status-info"></i> Group alerts</li>
+            </ul>
+          </div>
+
+          <div class="feature-card">
+            <h3>Placement Control Centre</h3>
+            <p>Visual journey tracker with feedback and predictions.</p>
+            <ul class="feature-list">
+              <li><i class="fa-solid fa-diagram-project status-good"></i> Applied → Shortlisted → Interview → Selected</li>
+              <li><i class="fa-solid fa-clock status-warn"></i> Timeline + countdown</li>
+              <li><i class="fa-solid fa-sparkles status-info"></i> Smart prep suggestions</li>
+              <li><i class="fa-solid fa-comment-dots status-good"></i> Interview feedback</li>
+              <li><i class="fa-solid fa-chart-pie status-warn"></i> Status prediction</li>
+              <li><i class="fa-solid fa-folder-open status-info"></i> Document checker</li>
+            </ul>
+          </div>
+
+          <div class="feature-card">
+            <h3>Place Intel</h3>
+            <p>Placement control center with AI insights and heatmaps.</p>
+            <ul class="feature-list">
+              <li><i class="fa-solid fa-chart-line status-good"></i> Branch performance heatmaps</li>
+              <li><i class="fa-solid fa-sparkles status-info"></i> AI training recommendations</li>
+              <li><i class="fa-solid fa-triangle-exclamation status-warn"></i> At-risk student alerts</li>
+              <li><i class="fa-solid fa-file-export status-good"></i> Auto reports & exports</li>
+            </ul>
+          </div>
+
+          <div class="feature-card">
+            <h3>Talent Bridge</h3>
+            <p>Recruiter workspace with AI ranking & analytics.</p>
+            <ul class="feature-list">
+              <li><i class="fa-solid fa-ranking-star status-good"></i> AI candidate ranking</li>
+              <li><i class="fa-solid fa-code-compare status-info"></i> Side-by-side comparisons</li>
+              <li><i class="fa-solid fa-filter status-good"></i> Smart filters by skills/CGPA</li>
+              <li><i class="fa-solid fa-chart-line status-info"></i> Hiring analytics</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- DASHBOARD -->
+      <section id="dashboard">
+        <div class="section-header">
+          <p class="eyebrow">PlaceBridge Dashboard</p>
+          <h2 class="section-title">Turning Placement Chaos into Clarity</h2>
+          <p class="section-subtitle">
+            A modern, clean, and professional dashboard for students preparing for placements.
+          </p>
+        </div>
+
+        <div class="dashboard-shell">
+          <aside class="sidebar">
+            <button class="sidebar-item">Dashboard</button>
+            <button class="sidebar-item">My Profile</button>
+            <button class="sidebar-item">Companies</button>
+            <button class="sidebar-item">Applications</button>
+            <button class="sidebar-item">Mock Tests</button>
+            <button class="sidebar-item">Resume Builder</button>
+            <button class="sidebar-item">Analytics</button>
+            <button class="sidebar-item">Calendar</button>
+            <button class="sidebar-item">Settings</button>
+          </aside>
+
+          <div class="dashboard-main">
+            <div class="dashboard-topbar">
+              <div class="brand">
+                <div class="brand-mark small"></div>
+                <strong>PlaceBridge</strong>
+              </div>
+
+              <div class="search-bar">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Search companies, skills, jobs" />
+              </div>
+
+              <div class="nav-actions">
+                <button class="icon-button" id="themeToggle">
+                  <i class="fa fa-moon"></i>
+                </button>
+                <button class="icon-button">
+                  <i class="fa fa-bell"></i>
+                </button>
+                <button class="profile-button">
+                  Ananya <i class="fa fa-chevron-down"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="overview-grid">
+              <div class="card">Total Companies Visited: 186</div>
+              <div class="card">Students Placed: 428</div>
+              <div class="card">Active Job Openings: 64</div>
+              <div class="card">Placement Success Rate: 76%</div>
+              <div class="card">Placement Prediction Score: 82%</div>
+            </div>
+
+            <div class="analytics-grid">
+              <div class="card"><canvas id="lineChart"></canvas></div>
+              <div class="card"><canvas id="barChart"></canvas></div>
+              <div class="card"><canvas id="pieChart"></canvas></div>
+              <div class="card"><canvas id="radarChart"></canvas></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div>
+          <strong>PlaceBridge</strong>
+          <p>Built for placement teams who value clarity, speed, and outcomes.</p>
+        </div>
+        <div>
+          <p>placesync04@gmail.com</p>
+          <p>Maharashtra · Nagpur</p>
+        </div>
+      </footer>
+    </div>
+
+    <div class="modal-overlay" id="loginModal">
+      <div class="modal-card">
+        <h3>Login</h3>
+        <form class="modal-form">
+          <input type="text" placeholder="Name or Email" />
+          <input type="password" placeholder="Password" />
+          <button class="primary-button">Sign In</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal-overlay" id="signupModal">
+      <div class="modal-card">
+        <h3>Get Started</h3>
+        <form class="modal-form">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email" />
+          <input type="tel" placeholder="Phone" />
+          <input type="text" placeholder="College" />
+          <input type="password" placeholder="Create Password" />
+          <button class="primary-button">Create Account</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
